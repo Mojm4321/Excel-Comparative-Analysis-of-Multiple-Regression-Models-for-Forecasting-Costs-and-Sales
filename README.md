@@ -81,7 +81,7 @@ Diagram 9
 
 The finalised model retained only the significant predictors, tables and fridges, which resulted in an improved Adjusted R² of 0.64798, demonstrating a better fit to the data. In this refined model, both tables (pvalue=0.00539) and fridges (pvalue=0.02079) remained very low, illustrated in Diagram 10,  indicating their strong influence on production costs.
 
-To forecast the product cost, the final regression equation was simplified to (92.3507*tables produced) + (83.7226*fridges produced)+10313.83231. For example,for the production of 500 Tables and 400 Fridges, the model predicts a total cost of approximately £89,978.21, as shown in Diagram 11.
+To forecast the product cost, the final regression equation was simplified to (92.3507 x tables produced) + (83.7226 x fridges produced)+10313.83231. For example,for the production of 500 Tables and 400 Fridges, the model predicts a total cost of approximately £89,978.21, as shown in Diagram 11.
 
 ![Diagram 10](https://github.com/Mojm4321/Excel-Comparative-Analysis-of-Multiple-Regression-Models-for-Forecasting-Costs-and-Sales/blob/main/2nd%20model%203.png)
 
@@ -121,3 +121,13 @@ Diagram 14
 
 
 Diagram 15
+
+# Model 3: Predicting Sales Performance
+
+# Conclusion
+
+After evaluating all 3 models, Model 3 (Sales Prediction) emerges as the best performing model, with the highest Adjusted R² and strong predictive power from airplays and attractiveness. The scatter plots confirm the strength of these relationships, while advertising plays a smaller role.
+
+Model 2 (Production Costs) is the second best, explaining a significant portion of cost variability using tables and fridges. The scatter plots further validates the model by showing clear trends for these predictors, while chairs and doors were correctly removed.
+
+Model 1 (Taxi Ride Costs), although effective, ranks third due to the prescence of outliers and some unexplained differences in costs, possibly due to facotrs not captured by distance alone. Nevertheless, the model still provides a reliable and simple forecast for taxi ride costs, making it useful for predicting costs based solely on distance travelled.
