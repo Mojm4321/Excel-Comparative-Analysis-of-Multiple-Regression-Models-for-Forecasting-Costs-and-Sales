@@ -124,6 +124,55 @@ Diagram 15
 
 # Model 3: Predicting Sales Performance
 
+Diagram 16 illustrates the relationship between sales for songs and weekly airplays, song attractiveness and advertising expenditure.
+
+![Diagram 16](https://github.com/Mojm4321/Excel-Comparative-Analysis-of-Multiple-Regression-Models-for-Forecasting-Costs-and-Sales/blob/main/3rd%20model%201.png)
+
+
+Diagram 16
+
+
+The original linear regression model has the highest adjusted R² of the three models, at 0.67855, indicating that 67.9% of the variability in sales can be explained by the predictors. Airplays and attractiveness are also highly significant predictors, with pvalues of 0.0117 and 0.0221, respectively. Advertising is also borderline significant with a pvalue of 0.0631. This is illustrated in Diagram 17.
+
+![Diagram 17](https://github.com/Mojm4321/Excel-Comparative-Analysis-of-Multiple-Regression-Models-for-Forecasting-Costs-and-Sales/blob/main/3rd%20model%202.png)
+
+
+Diagram 17
+
+
+The regression equation to predict song sales includes all 3 variables: Sales = 947730 + (52081.98 x airplays per week) + (172677.09 x attractiveness level) + (594.10 x advertising amount), as shown in Diagram 18.
+
+![Diagram 18](https://github.com/Mojm4321/Excel-Comparative-Analysis-of-Multiple-Regression-Models-for-Forecasting-Costs-and-Sales/blob/main/3rd%20model%206.png)
+
+
+Diagram 18
+
+
+The scatter plot of Sales vs Airplays (Diagram 19) illustrates a clear positive linear trend, with an R² of 0.4716, indicating that airplays explain nearly 47.2% of the variation in sales. The relatively tight clustering of data points around the trendline further confirms that airplays are a reliable predictor of sales.
+
+Similarly, the scatter plot of Sales vs Attractiveness (Diagram 20) reveals a positive realtionship, with an R² of 0.4202. This suggests that song attractiveness accounts for 42% of the variation in sales, making it another key factor. While there is some scatter around the trendline, the overall positive trend is still evident, reinforcing the importance of song attractiveness as a predictor.
+
+In contrast, the scatter plot of Sales vs Advertising (Diagram 21) illustrates a much weaker relationship, with an R² of 0.0811, indicating that adverstising expenditure explains only a small portion of sales variation. Further, the wide scatter of data points reflects the borderline significance of this variable, which is why it's contributiion is considered less impactful compared to airplays and attractivess. However, the decision to keep advertising in the model was made based on it's pvalue of 0.0631, suggesting that it may still have a small but relevant influence on sales.
+
+
+![Diagram 19](https://github.com/Mojm4321/Excel-Comparative-Analysis-of-Multiple-Regression-Models-for-Forecasting-Costs-and-Sales/blob/main/3rd%20model%203.png)
+
+
+Diagram 19
+
+
+![Diagram 20](https://github.com/Mojm4321/Excel-Comparative-Analysis-of-Multiple-Regression-Models-for-Forecasting-Costs-and-Sales/blob/main/3rd%20model%204.png)
+
+
+Diagram 20
+
+
+![Diagram 21](https://github.com/Mojm4321/Excel-Comparative-Analysis-of-Multiple-Regression-Models-for-Forecasting-Costs-and-Sales/blob/main/3rd%20model%205.png)
+
+
+Diagram 21
+
+
 # Conclusion
 
 After evaluating all 3 models, Model 3 (Sales Prediction) emerges as the best performing model, with the highest Adjusted R² and strong predictive power from airplays and attractiveness. The scatter plots confirm the strength of these relationships, while advertising plays a smaller role.
